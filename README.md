@@ -20,8 +20,8 @@ Math-magicians is a simple calculator app created with React. Re-creating this w
 
 Setting up this project locally:
 #### On your terminal:
-- Clone this repository to your computer: git clone git@github.com:emiliazm/leaderboard.git.
-- Open the project on your code editor: "cd Todo-list" and "code ."
+- Clone this repository to your computer: git clone git@github.com:emiliazm/math-magicians.git.
+- Open the project on your code editor: "cd math-magicians" and "code ."
 - Install npm package: npm install.
 - Run website: npm run start.
 
