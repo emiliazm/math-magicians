@@ -31,10 +31,8 @@ Setting up this project locally:
 [Live Demo Link]
 
 
-
 ### Prerequisites
 
-#### Interfaces
 In the previous project, you worked on the setup of a React application using Create React App (CRA), now you should:
 
 - Delete all the boilerplate from CRA (text, images, styles).
