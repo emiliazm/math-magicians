@@ -28,10 +28,8 @@ Setting up this project locally:
 
 ## Live Demo (if available)
 
-[Live Demo Link]
 
-
-### Prerequisites
+## Prerequisites
 
 In the previous project, you worked on the setup of a React application using Create React App (CRA), now you should:
 
