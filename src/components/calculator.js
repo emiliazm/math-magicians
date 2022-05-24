@@ -7,9 +7,7 @@ class Calculator extends React.Component {
   render() {
     return (
       <div className="container">
-        <div className="display">
-          <Display label="0" />
-        </div>
+        <Display class="display" label="0" />
         <div className="operators-container">
           <div className="grey-btn">
             <Buttons label="AC" />
@@ -24,7 +22,7 @@ class Calculator extends React.Component {
             <Buttons label="1" />
             <Buttons label="2" />
             <Buttons label="3" />
-            <Buttons label="0" />
+            <Buttons id="cero" label="0" />
             <Buttons label="." />
           </div>
           <div className="orange-btn">

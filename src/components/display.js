@@ -2,18 +2,20 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 class Display extends React.Component {
-  constructor({ label }) {
-    super({ label });
-    this.label = label;
+  constructor(props) {
+    super(props);
+    this.label = props.label;
+    this.class = props.class;
   }
 
   render() {
-    return (<p>{this.label}</p>);
+    return (<div className={this.class}>{this.label}</div>);
   }
 }
 
 Display.propTypes = {
   label: PropTypes.string.isRequired,
+  class: PropTypes.string.isRequired,
 };
 
 export default Display;
