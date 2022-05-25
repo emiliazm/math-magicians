@@ -4,7 +4,6 @@ import Buttons from './buttons';
 import Display from './display';
 import calculate from '../logic/calculate';
 
-// eslint-disable-next-line react/prefer-stateless-function
 const Calculator = (props) => {
   const {
     previous,
