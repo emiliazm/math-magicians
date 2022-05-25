@@ -59,3 +59,7 @@
 #cero {
   flex: 2 0 66.666%;
 }
+
+button:active {
+  background-color: grey;
+}
