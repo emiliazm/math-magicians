@@ -6,7 +6,7 @@ import Calculator from './components/calculator';
 class App extends React.Component {
   render() {
     return (
-      (<Calculator />)
+      (<Calculator previous="" operand="" current="0" solved={false} />)
     );
   }
 }
