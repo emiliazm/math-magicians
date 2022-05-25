@@ -4,18 +4,25 @@ import PropTypes from 'prop-types';
 class Buttons extends React.Component {
   constructor(props) {
     super(props);
-    this.label = props.label;
-    this.id = props.id;
+    this.state = {};
+    this.clickEvent = this.clickEvent.bind(this);
+  }
+
+  clickEvent() {
+    const { clickEvent, label } = this.props;
+    clickEvent(label);
   }
 
   render() {
-    return (<button id={this.id} type="button">{this.label}</button>);
+    const { id, label } = this.props;
+    return (<button id={id} type="button" onClick={this.clickEvent}>{label}</button>);
   }
 }
 
 Buttons.propTypes = {
   label: PropTypes.string.isRequired,
   id: PropTypes.string,
+  clickEvent: PropTypes.func.isRequired,
 };
 
 Buttons.defaultProps = {
