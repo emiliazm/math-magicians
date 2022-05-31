@@ -1,4 +1,5 @@
 {
+  "homepage": "https://emiliazm.github.io/math-magicians",
   "name": "math-magicians",
   "version": "0.1.0",
   "private": true,
@@ -17,7 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && echo emiliazm.github.io > ./build/CNAME && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -48,6 +50,7 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-react-hooks": "^4.5.0",
+    "gh-pages": "^4.0.0",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
