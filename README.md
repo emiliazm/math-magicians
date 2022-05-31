@@ -26,7 +26,8 @@ Setting up this project locally:
 - Run website: npm run start.
 
 
-## Live Demo (if available)
+## Live Demo
+[Live Demo Link](https://emiliazm.github.io/math-magicians/)
 
 
 ## Prerequisites
@@ -36,12 +37,11 @@ In the previous project, you worked on the setup of a React application using Cr
 - Delete all the boilerplate from CRA (text, images, styles).
 - Create a directory called components.
 - Inside components, create a new Calculator.js file.
-- In Calculator.js, create a React component that matches this design:
-- Don't add any extra design.
-- Develop just the UI of the calculator; the math logic to make it work will be added in the next project.
-- Use class based components (All components should be class-based).
-- Once the Calculator is ready, import it and use it in your main component (App.js).
-- Test it in the browser; it should render without problems.
+- Create a website consisting of 3 pages: Home, Calculator, and Quote.
+- Add your own styles to improve the look and feel.
+- For every page, you should create a route.
+- Make sure that navigation links for all 3 routes are displayed on each page.
+- Use React Router to make the routes work.
 
 
 ## Authors
