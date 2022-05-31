@@ -27,10 +27,10 @@ class App extends React.Component {
           </nav>
         </div>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="*" element={<Navigate to="/home" />} />
           <Route path="/calculator" element={<Calculator previous="" operand="" current="0" solved={false} />} />
           <Route path="/quote" element={<Quote />} />
-          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Router>
     );
