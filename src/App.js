@@ -22,14 +22,15 @@ class App extends React.Component {
             <Link to="/">Home</Link>
             <span> | </span>
             <Link to="/calculator">Calculator</Link>
+            <span> | </span>
             <Link to="/quote">Quote</Link>
           </nav>
         </div>
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/calculator" element={<Calculator previous="" operand="" current="0" solved={false} />} />
           <Route path="/quote" element={<Quote />} />
-          <Route path="*" element={<Navigate to="/home" />} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Router>
     );
