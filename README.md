@@ -15,6 +15,7 @@ Math-magicians is a simple calculator app created with React. Re-creating this w
 - Webpack
 - Linters
 - Jest
+- React Library
 
 ## Getting Started
 
@@ -42,6 +43,12 @@ In the previous project, you worked on the setup of a React application using Cr
 - For every page, you should create a route.
 - Make sure that navigation links for all 3 routes are displayed on each page.
 - Use React Router to make the routes work.
+- Set up React Testing Library.
+- Write unit tests for the files operate.js and calculate.js using Jest.
+- Create unit tests for all React components.
+  - Use Jest snapshots to test the components.
+  - Use React Testing Library to simulate user interaction.
+- Run your full tests suite using Jest. All tests should pass.
 
 
 ## Authors
@@ -51,6 +58,13 @@ In the previous project, you worked on the setup of a React application using Cr
 - GitHub: [@emiliazm](https://github.com/emiliazm)
 - Twitter: [@emilia_zm](https://twitter.com/emilia_zm)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/emilia-zambrano-montero-aa30a611b/)
+
+👤 **Arturo**
+
+- GitHub: [@Artbsc1992](https://github.com/Artbsc1992)
+- Twitter: [@Arturo_D_Rock](https://twitter.com/Arturo_D_Rock)
+- LinkedIn: [Arturo Hermida](https://www.linkedin.com/in/arturo-hermida29/)
+
 
 ## 🤝 Contributing
 
