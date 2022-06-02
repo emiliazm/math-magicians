@@ -28,7 +28,9 @@ Setting up this project locally:
 
 
 ## Live Demo
-[Live Demo Link](https://emiliazm.github.io/math-magicians/)
+[GitHub](https://emiliazm.github.io/math-magicians/)
+[Heroku](https://emiliazm-mathmagicians.herokuapp.com/#/)
+[Netifly](https://6298ef4ed6f72f03eb0b7777--cute-malasada-821332.netlify.app/#/)
 
 
 ## Prerequisites
