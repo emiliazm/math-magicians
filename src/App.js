@@ -15,7 +15,7 @@ import Calculator from './components/calculator';
 class App extends React.Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="header-container">
           <h1>Math Magician</h1>
           <nav>
